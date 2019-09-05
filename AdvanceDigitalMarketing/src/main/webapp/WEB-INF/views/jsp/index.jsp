@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Advance Digital Marketing Training - Online Marketing Institute</title>
- 
+ <link rel="stylesheet" href="/AdvanceDigitalMarketing/resources/css/login.css">
   
   
  
@@ -178,15 +178,15 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
           <img src="/AdvanceDigitalMarketing/resources/images/logo1.jpg" width="126px" alt="Advance digital marketng institute">
         </li>
         <li class="menuFindYourClass ">
-          <a href="/find-your-class">Learn</a>
+          <a href="#" style="border:none">Learn</a>
           <div class="megamenu-panel">
             <div class="megamenu-tabs">
               <ul class="megamenu-tabs-nav no-mobile">
                 <li class="active"><span><a href="/find-your-class/#topics">Topics</a></span></li>
-                <li><span><a href="/find-your-class/#certifications">Certifications</a></span></li>
-                <li><span><a href="/find-your-class/#series">Series</a></span></li>
-                <li><span><a href="/find-your-class/#webinars">Webinars</a></span></li>
-                <li><span><a href="/find-your-class/#new-classes">Newest Classes</a></span></li>
+                <li><span><a href="#">Certifications</a></span></li>
+                <li><span><a href="#">Series</a></span></li>
+                <li><span><a href="#">Webinars</a></span></li>
+                <li><span><a href="#">Newest Classes</a></span></li>
               </ul>
               <ul class="megamenu-tabs-nav no-desktop">
                 <li class="active"><a href="#">Topics</a></li>
@@ -199,20 +199,20 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
                 <div class="megamenu-lists">
                   <div class="megamenu-list-title">Explore all of our offerings -  by topic</div>
                                       <ul class="megamenu-list list-col-3">
-                                                                                                    <li><a href="/classes/analytics">-  Analytics</a></li>
-                                                                                                                                                      <li><a href="/classes/b2b-marketing">-  B2B Marketing</a></li>
-                                                                                                                                                      <li><a href="/classes/brand-and-consumer-insights">-  Brand and Consumer Insights</a></li>
-                                                                                                                                                      <li><a href="/classes/content-marketing">-  Content Marketing</a></li>
-                                                                                                                                                      <li><a href="/classes/customer-journey">-  Customer Journey</a></li>
-                                                                                                                                                      <li><a href="/classes/digital-advertising">-  Digital Advertising</a></li>
-                                                                                            </ul>
-                                      <ul class="megamenu-list list-col-3">
-                                                                                                    <li><a href="/classes/email-marketing">-  Email Marketing</a></li>
-                                                                                                                                                      <li><a href="/classes/marketing-and-advertising-technology">-  Marketing and Advertising Technology</a></li>
-                                                                                                                                                      <li><a href="/classes/mobile-marketing">-  Mobile Marketing</a></li>
-                                                                                                                                                      <li><a href="/classes/seo">-  SEO</a></li>
-                                                                                                                                                      <li><a href="/classes/social-media-marketing-classes">-  Social Media Marketing</a></li>
-                                                                                                                                                      <li><a href="/classes/other">-  Other</a></li>
+                            <li><a href="#">-  Analytics</a></li>
+                     <li><a href="/classes/b2b-marketing">-  B2B Marketing</a></li>
+         <li><a href="/classes/brand-and-consumer-insights">-  Brand and Consumer Insights</a></li>
+                                                                                        <li><a href="/classes/content-marketing">-  Content Marketing</a></li>
+             <li><a href="/classes/customer-journey">-  Customer Journey</a></li>
+        <li><a href="/classes/digital-advertising">-  Digital Advertising</a></li>
+                                                  </ul>
+       <ul class="megamenu-list list-col-3">
+               <li><a href="/classes/email-marketing">-  Email Marketing</a></li>
+                <li><a href="/classes/marketing-and-advertising-technology">-  Marketing and Advertising Technology</a></li>
+                    <li><a href="/classes/mobile-marketing">-  Mobile Marketing</a></li>
+                  <li><a href="/classes/seo">-  SEO</a></li>
+                  <li><a href="/classes/social-media-marketing-classes">-  Social Media Marketing</a></li>
+                <li><a href="/classes/other">-  Other</a></li>
                                                                                             </ul>
                                   </div>
               </div>
@@ -291,10 +291,10 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
             </div>
           </div>
         </li>
-        <li class=""><a href="/plans">Pricing</a></li>
-        <li class=""><a href="/business-solutions">Business Solutions</a></li>
-        <li class=""><a href="/about">About</a></li>
-        <li class=""><a href="/blog">Blog</a></li>
+        <li class=""><a href="#" style="border:none">Pricing</a></li>
+        <li class=""><a href="#" style="border:none">Business Solutions</a></li>
+        <li class=""><a href="#" style="border:none">About</a></li>
+        <li class=""><a href="#" style="border:none">Blog</a></li>
       </ul>
             <ul class="nav-menu align-to-right">
         <li class="menuSearch">
@@ -306,10 +306,41 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
             </form>
           </div>
         </li>
-                  <li class=""><a href="/login">Sign In</a></li>
+                  <li class=""><a href="#" onclick="document.getElementById('id01').style.display='block'" style="border:none">Sign In</a></li>
           <li class="menuEnroll"><a href="/plans"><span>Enroll</span></a></li>
               </ul>
     </div>
+    
+    
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="#">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="/AdvanceDigitalMarketing/resources/images/person.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label><br/>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+<br/>
+      <label for="psw"><b>Password</b></label><br/>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        <br/>
+      <button type="submit">Login</button><br/>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+   
+<br/>
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span >Forgot <a href="#" style="border:none">password?</a></span>
+    </div>
+  </form>
+</div>
+    
     <div class="clearfix"></div>
   </div>
   <hr class="omi-hr">
@@ -324,6 +355,16 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
         window.location.href = $(this).attr('href');
       })
   })(jQuery);
+  
+  // Get the modal
+  var modal = document.getElementById('id01');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
 </script>
 </header>
 
@@ -390,9 +431,9 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
         
         
         
-        <p>If you are looking for a digital marketing course in Noida,
+        <p>If you are looking for a digital marketing course in Ballabgarh,
          we are one of the <strong>best digital marketing institutes in
-          Noida</strong>. Our greatest strength is that we focus on the 
+          Ballabgarh</strong>. Our greatest strength is that we focus on the 
           application of digital marketing principles and not only on the
            theories. At our institute, the lessons of digital marketing 
            are given by the faculty members that have many years working in 
@@ -402,7 +443,7 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
              Our network of professionals is really big that in-turn helps our 
              students in becoming digital marketing experts that every company 
              wants to hire. If you also want to become a student of the <strong>best 
-             digital marketing course in Noida</strong>, you call us for the demo class
+             digital marketing course in Ballabgarh</strong>, you call us for the demo class
            and start your journey of becoming an expert in digital marketing.</p>
             <p><strong>Infrastructure</strong>  Our infrastructure is decent and you
              will feel good and love the ambiance of our institute. Our classrooms
@@ -411,58 +452,58 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
               needs of the digital marketing industry. For example, we got advanced 
               computers and projectors for giving presentations and taking classes.
                If you are looking for the best digital marketing institute in 
-               Noida with a good infrastructure you can visit us anytime for 
+               Ballabgarh with a good infrastructure you can visit us anytime for 
                the demo classes.</p> <h4><strong>Advanced Computer labs</strong></h4>
                 <p>Our computers are the latest and advanced. The computers are 
                 customized as per the requirements of a digital marketing institute.
                  The latest and updated software will keep at the pace of the 
                  corporate world and help you get the best job. Our high-tech 
                  computer labs make us one of the best digital marketing institutes
-                  in Noida and facilitate our students with all the amazing tools
+                  in Ballabgarh and facilitate our students with all the amazing tools
                    required to design the best digital marketing campaigns.</p> 
                    <h4><strong>Faculty</strong></h4> <p>Our faculty members are
                     all professionals and experienced in digital marketing.
 
   Most of them are from the corporate world and their experience and understanding 
   of digital marketing make our institute the <strong>best digital marketing institute
-   in Noida</strong>.  We also have visiting faculty members that hold a higher position
+   in Ballabgarh</strong>.  We also have visiting faculty members that hold a higher position
     at branded digital marketing agencies or taking care of the digital marketing 
     department of the branded companies.</p> <h4><strong>Our classes Modules
     </strong></h4> <p>Our modules are really simple and it is very easy to understand
      even for a beginner. We are covering all the important topics in the simplest
       manner. If you are a beginner, you need not worry as we are going to tell
  everything about digital marketing starting from the very basic level. Our modules 
- contribute a lot in making us the best digital marketing institute in Noida.</p>
+ contribute a lot in making us the best digital marketing institute in Ballabgarh.</p>
   <p><strong>Fee structure </strong> Our fee structure is reasonable and we keep
    on offering many discounts as well. A student can pay the fee in installments
     as well. Our fee structure is really competitive if you compare the
-     <strong>best digital marketing institutes in Noida</strong>. 
+     <strong>best digital marketing institutes in Ballabgarh</strong>. 
  You can call us for more information on the fee structure of our courses.</p> <p>
- If you are a student or a working professional in Noida looking for the best 
-digital marketing</a> courses in Noida, we are providing both a basic level and advanced
+ If you are a student or a working professional in Ballabgarh looking for the best 
+digital marketing</a> courses in Ballabgarh, we are providing both a basic level and advanced
  level of digital marketing courses to the students. You can also take a demo class to
   decide on which course you would like to join. To book a demo class you can call us 
   or you can leave a query on our website and we will soon come back to us.</p> 
   <p>Start your journey of digital marketing with Digimanthan. Digimanthan is one of 
-  the leading Digital marketing institutes in Noida. Now we started our <strong>digital
-   marketing institute in Noida</strong>. Digital marketing is now a new way to promote
+  the leading Digital marketing institutes in Ballabgarh. Now we started our <strong>digital
+   marketing institute in Ballabgarh</strong>. Digital marketing is now a new way to promote
     your business. Because nowadays, most people have a smartphone. And digital marketing 
     is now a smart way to promote your business.</p> <p><strong>
-</strong></p> <p><strong>Digital marketing institute in Noida</strong> is an easier 
+</strong></p> <p><strong>Digital marketing institute in Ballabgarh</strong> is an easier 
 way than online and offline marketing. The best part of digital marketing is that we 
 can target the needy audience. So, we are able to engage the audience in our business. 
 Nowadays digital marketing became compulsory for MBA student. In fact, it's a part of 
-MBA syllabus.</p> <p>Digital marketing institute in Noida gives you the opportunity to 
+MBA syllabus.</p> <p>Digital marketing institute in Ballabgarh gives you the opportunity to 
 boost your resume. Any age group of any stream can do this course. We provide you with 
 better training with great assistance. Digimanthan also provides you with 100% job 
 assistance. So, that after compilation, of course, you have a job in your hand according 
 to your skills. We also provide an internship program for our student.</p> 
-<p>Digimanthan is now one of the leading digital marketing institutes .in Noida We 
+<p>Digimanthan is now one of the leading digital marketing institutes .in Ballabgarh We 
 have the best faculties to assist you. We provide a live demo example to student.
 so that they better understand the concept.</p> <p><strong>Digital Marketing Course 
-in </strong>Noida:- Digital Marketing Certificates.<br /> We provide you with nine 
+in </strong>Ballabgarh:- Digital Marketing Certificates.<br /> We provide you with nine 
 certificates. With digimanthan's training program become AdWords, analytics, Bing, and 
-facebook certified professions.</p> <h2><strong>Digital Marketing Course in Noida</strong></h2> 
+facebook certified professions.</p> <h2><strong>Digital Marketing Course in Ballabgarh</strong></h2> 
 <p>Total <strong>9 Certification</strong> Provide by Digimanthan.</p> 
 <h4>1.                   AdWords Search Certification.</h4> 
 <h4>2.                   AdWords Shopping Certification.</h4> 
@@ -473,7 +514,7 @@ facebook certified professions.</p> <h2><strong>Digital Marketing Course in Noid
 <h4>7.                   Facebook Blueprint.</h4> 
 <h4>8.                   Analytics Certification.</h4> 
 <h4>9.                   Certification of digital marketing (Digi Manthan).</h4> 
-<p>&nbsp;</p> <h2><strong>Digital Marketing Course in Noida</strong></h2> 
+<p>&nbsp;</p> <h2><strong>Digital Marketing Course in Ballabgarh</strong></h2> 
 <h3>Duration</h3> <p>This is a short-term course near about 12 weeks.
  In these twelve weeks, we complete all the modules that mention above. We provide you live training with practical knowledge of the digital world. 
  Through all this, we ensure a clear understanding of all topics to the students.</p> <p>We provide you both weekdays and weekend classes. 
@@ -485,33 +526,33 @@ facebook certified professions.</p> <h2><strong>Digital Marketing Course in Noid
   you are able to target needy audience. Whereas in offline marketing it's a tough task. Online marketing creates more audience than offline marketing.</p> 
   <p>Nowadays everybody has a smartphone. People are grown smart now and digital marketing is the smartest way of marketing nowadays. In digital marketing, 
   you learn how to create ads, how to show them to the targeted audience.</p> <p>We also made you learn as a freelancer. You can work on your conditions in freelancing. 
-  Now the world is growing digitally. It’s your turn to grow digital with <strong>digital marketing institute in Noida</strong>.</p> <p>Digital marketing is the new way 
+  Now the world is growing digitally. It’s your turn to grow digital with <strong>digital marketing institute in Ballabgarh</strong>.</p> <p>Digital marketing is the new way 
   of marketing. We also say this in that way this is modern-day marketing.</p> <h2>Area to learn</h2> <p>What do you learn in a digital marketing course?<br /> 
   In digital marketing, you learn about different modules. You learn that hoe to rank a webpage on search engine by doing <strong>SEO</strong>(Search Engine Optimization).
    How to create your own website, how to rank on the top of the search engine. Optimization of social media to grow your business. 
-   Method of online earning etc.</p> <p>Digital marketing institute in Noida Along with these certificates, you became a digital marketer. 
+   Method of online earning etc.</p> <p>Digital marketing institute in Ballabgarh Along with these certificates, you became a digital marketer. 
    The <strong>digital marketing is the 3-month course</strong> in this period we provide you training of digital marketing with various modules. 
    The modules are designed and developed keeping in mind the latest trend.</p> <p>Which are ongoing in the digital industry. You can also find high ranking jobs.
-    Such as Digital marketing institute in Noida Strategist, Digital Marketing Developer, Digital Marketing Traffic Specialist, and PPC Manager. 
+    Such as Digital marketing institute in Ballabgarh Strategist, Digital Marketing Developer, Digital Marketing Traffic Specialist, and PPC Manager. 
     After learning this course you will be able to find jobs in these fields.</p> <h4><strong>
-</strong></h4> <h4><strong>Digital marketing institute in Noida</strong> Our</h4> <h4>a page has to take care of audience generation on the website. 
+</strong></h4> <h4><strong>Digital marketing institute in Ballabgarh</strong> Our</h4> <h4>a page has to take care of audience generation on the website. 
 Analyzing website through different tools.</h4> <h2><strong>Digital marketing course</strong></h2> <p>Benefits- Beat the ranking of the competitor by making a better
  option or through analyzing their website. Create backlinks on a different website. Take care of DA (Domain Authority) and PA( Page Authority) of the website.</p> 
  <p>internet marketing simply means utilization of digital thing such as the internet, mobile, laptop, desktop, etc to promote your business online. Digital marketing 
  is the best way to promote your business. Digital marketing helps you to make your online name. you can promote your business worldwide.</p> <p>Then what are you waiting 
  for come join our journey of digital marketing? Make your online name grow your business online worldwide. Let the world know you and your business name.</p> 
- <p><strong>Digimanthan: Digital marketing course is being offered in Noida</strong> provides you with the best experience in digital marketing training. 
- As we mention above we provide you with 100% job assistance. We are now the leading digital marketing institute in Noida.</p> <p>Our institute is providing 
- <strong>Digital Marketing Course in Noida</strong> that is a complete job oriented course with high-tech working labs and experienced faculty members. 
- Our course stands out in hundreds of courses that different institutes are offering in Noida because of the structure of our course. Our course is a complete course 
+ <p><strong>Digimanthan: Digital marketing course is being offered in Ballabgarh</strong> provides you with the best experience in digital marketing training. 
+ As we mention above we provide you with 100% job assistance. We are now the leading digital marketing institute in Ballabgarh.</p> <p>Our institute is providing 
+ <strong>Digital Marketing Course in Ballabgarh</strong> that is a complete job oriented course with high-tech working labs and experienced faculty members. 
+ Our course stands out in hundreds of courses that different institutes are offering in Ballabgarh because of the structure of our course. Our course is a complete course 
  that includes everything about digital marketing with hands-on projects and job placement assistance.</p> <p>We have both short-term and long-term courses for digital 
  marketing professionals and aspirant who are at a different level in their career. Our short-term courses are designed for advanced-level professionals who want to reach
   the next level of their career. The long-term courses are for the beginners that include everything starting from the basics of digital marketing to the implementation 
   of the tools on real projects. Our courses include all the topics like mobile marketing, video promotion, search engine marketing, PPC, content marketing, affiliate 
-  marketing, and social media promotion of a website.</p> <p>The faculty members of our <strong>Digital Marketing Course in Noida</strong> have industry experience that 
+  marketing, and social media promotion of a website.</p> <p>The faculty members of our <strong>Digital Marketing Course in Ballabgarh</strong> have industry experience that 
   makes them train the students well. Their exposure to real projects helps them assist the students in making successful campaigns. The focus of our institute is on 
   giving all-round exposure to the student that helped them developing analytical to measure the ROI of their project. We follow two parallel approaches of knowledge and 
-  its accurate implementation for our students.</p> <p>Digital marketing institute in Noida Come join us an became a part of the digital world. 
+  its accurate implementation for our students.</p> <p>Digital marketing institute in Ballabgarh Come join us an became a part of the digital world. 
   For more details contact us:-</p> <p> 
         
         
@@ -696,9 +737,7 @@ Analyzing website through different tools.</h4> <h2><strong>Digital marketing co
                 	<div id="fb-root"></div>
 	<link rel='stylesheet' id='addthis_output-group-css' href='https://www.onlinemarketinginstitute.org/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/addthis/css/output.css' type='text/css' media='all' />
 <script type='text/javascript'>
-/* <![CDATA[ */
-var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/www.onlinemarketinginstitute.org\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
-/* ]]> */
+
 </script>
 <script type='text/javascript'>
 /* <![CDATA[ */
