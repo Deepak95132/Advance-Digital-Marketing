@@ -16,8 +16,8 @@
 			<script> var theChampLoadingImgPath = 'https://www.onlinemarketinginstitute.org/wp-content/plugins/super-socializer/images/ajax_loader.gif'; var theChampAjaxUrl = 'https://www.onlinemarketinginstitute.org/wp-admin/admin-ajax.php'; var theChampRedirectionUrl = 'https://www.onlinemarketinginstitute.org/'; var theChampRegRedirectionUrl = 'https://www.onlinemarketinginstitute.org/'; </script>
 				<script> var theChampFacebookScope = 'public_profile,email', theChampFBKey = '848941248520436', theChampVerified = 0; var theChampAjaxUrl = 'https://www.onlinemarketinginstitute.org/wp-admin/admin-ajax.php'; var theChampPopupTitle = ''; var theChampEmailPopup = 0; var theChampEmailAjaxUrl = 'https://www.onlinemarketinginstitute.org/wp-admin/admin-ajax.php'; var theChampEmailPopupTitle = ''; var theChampEmailPopupErrorMsg = ''; var theChampEmailPopupUniqueId = ''; var theChampEmailPopupVerifyMessage = ''; var theChampLJLoginUsernameString = 'Enter your LiveJournal username'; var theChampLJAuthUrl = 'https://www.onlinemarketinginstitute.org/?SuperSocializerAuth=LiveJournal'; var theChampSteamAuthUrl = ""; var theChampTwitterRedirect = 'https%3A%2F%2Fwww.onlinemarketinginstitute.org%2F';  var heateorMSEnabled = 0; var theChampTwitterAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Twitter&super_socializer_redirect_to=" + theChampTwitterRedirect; var theChampTwitchAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Twitch"; var theChampXingAuthUrl = theChampSiteUrl + "?SuperSocializerAuth=Xing&super_socializer_redirect_to=" + theChampTwitterRedirect;</script>
 				<script type="text/javascript" src="//platform.linkedin.com/in.js">
-		  api_key: 86v1i72fqcxyg9
-onLoad: theChampLinkedInOnLoad
+		 
+
 		</script>
 				<script> var theChampFBKey = '848941248520436', theChampFBLang = 'en_US', theChampFbLikeMycred = 0, theChampSsga = 0, theChampCommentNotification = 0, theChampHeateorFcmRecentComments = 0, theChampFbIosLogin = 0; </script>
 						<script>var theChampFBCommentUrl = 'https://www.onlinemarketinginstitute.org/'; var theChampFBCommentColor = ''; var theChampFBCommentNumPosts = ''; var theChampFBCommentWidth = '100%'; var theChampFBCommentOrderby = ''; var theChampCommentingTabs = "wordpress,facebook,googleplus,disqus", theChampGpCommentsUrl = 'https://www.onlinemarketinginstitute.org/', theChampDisqusShortname = '', theChampScEnabledTabs = 'wordpress,fb', theChampScLabel = 'Leave a reply', theChampScTabLabels = {"wordpress":"Default Comments (0)","fb":"Facebook Comments (<fb:comments-count href=https:\/\/www.onlinemarketinginstitute.org\/><\/fb:comments-count>)","googleplus":"G+ Comments","disqus":"Disqus Comments"}, theChampGpCommentsWidth = 0, theChampCommentingId = 'respond'</script>
@@ -374,7 +374,8 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
   </div>
 </section>
 
-  <section class="omi-section omi-background-white omi-text-navy omi-carousel-left-header  no-mobile" data-length="4">
+
+<section class="omi-section omi-background-white omi-text-navy omi-carousel-left-header  no-mobile" data-length="4">
   <div class="omi-container">
           <div class="omi-carousel-controls">
         <div>
@@ -386,1176 +387,167 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
           </div>
         </div>
       </div>
-        <div class="omi-learn-carousel-inner">
-      <div class="row">
-        <div class="col-md-3 col-sm-12 omi-learn-header">
-          <div class="omi-learn-header-inner">
-            <h3 class="omi-learn-header-title">
-              Topics
-            </h3>
-            <div class="omi-learn-header-description">Keep things flexible while exploring the subjects that fit your needs.</div>
-            <div class="omi-learn-header-cta">
-              <a href="/find-your-class/#topics">
-                See all Topics 
-              </a>
-            </div>
-          </div>
-        </div>
-                  <div class="col-md-3 col-sm-12  omi-common-card-wrapper"  data-group="1">
-            <a class="omi-common-card" href="/classes/social-media-marketing-classes">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083702/Topic-social-media-marketing.jpg" alt="Social Media Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Social Media Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    57 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12  omi-common-card-wrapper"  data-group="1">
-            <a class="omi-common-card" href="/classes/content-marketing">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09082914/topic-content-marketing.jpg" alt="Content Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Content Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    54 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12  omi-common-card-wrapper"  data-group="1">
-            <a class="omi-common-card" href="/classes/analytics">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09081216/Topic-Analytics.jpg" alt="Analytics">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Analytics
-  </span>
-  <span class="omi-common-card-footer">
-    39 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-            <a class="omi-common-card" href="/classes/other">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083548/Topic-Other.jpg" alt="Other">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Other
-  </span>
-  <span class="omi-common-card-footer">
-    35 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-            <a class="omi-common-card" href="/classes/mobile-marketing">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083509/Topic-Mobile-Marketing.jpg" alt="Mobile Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Mobile Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    25 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-            <a class="omi-common-card" href="/classes/seo">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083618/Topic-seo.jpg" alt="SEO">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    SEO
-  </span>
-  <span class="omi-common-card-footer">
-    24 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="3">
-            <a class="omi-common-card" href="/classes/brand-and-consumer-insights">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09081340/Topic-Brand-and-Consumer-Insights.jpg" alt="Brand and Consumer Insights">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Brand and Consumer Insights
-  </span>
-  <span class="omi-common-card-footer">
-    24 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="3">
-            <a class="omi-common-card" href="/classes/email-marketing">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083331/Topic-Email-Marketing.jpg" alt="Email Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Email Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    20 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="3">
-            <a class="omi-common-card" href="/classes/digital-advertising">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083250/Topic-Digital-Advertising.jpg" alt="Digital Advertising">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Digital Advertising
-  </span>
-  <span class="omi-common-card-footer">
-    19 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="4">
-            <a class="omi-common-card" href="/classes/customer-journey">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09082952/Topic-Customer-Journey.jpg" alt="Customer Journey">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Customer Journey
-  </span>
-  <span class="omi-common-card-footer">
-    17 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="4">
-            <a class="omi-common-card" href="/classes/b2b-marketing">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09081257/Topic-B2B-Marketing.jpg" alt="B2B Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    B2B Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    7 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="4">
-            <a class="omi-common-card" href="/classes/marketing-and-advertising-technology">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083409/Topic-marketing-advertising-technology.png" alt="Marketing and Advertising Technology">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Marketing and Advertising Technology
-  </span>
-  <span class="omi-common-card-footer">
-    6 classes
-  </span>
-</a>
-          </div>
-              </div>
-    </div>
+        
+        
+        
+        <p>If you are looking for a digital marketing course in Noida,
+         we are one of the <strong>best digital marketing institutes in
+          Noida</strong>. Our greatest strength is that we focus on the 
+          application of digital marketing principles and not only on the
+           theories. At our institute, the lessons of digital marketing 
+           are given by the faculty members that have many years working in 
+           the corporate market and know many techniques that only professionals
+            know. We are feeling proud to announce that we have successfully 
+            placed many students in good companies and digital marketing agencies.
+             Our network of professionals is really big that in-turn helps our 
+             students in becoming digital marketing experts that every company 
+             wants to hire. If you also want to become a student of the <strong>best 
+             digital marketing course in Noida</strong>, you call us for the demo class
+           and start your journey of becoming an expert in digital marketing.</p>
+            <p><strong>Infrastructure</strong>  Our infrastructure is decent and you
+             will feel good and love the ambiance of our institute. Our classrooms
+              are really spacious that will make you feel comfortable and you will 
+              enjoy the sessions with comfort. Our institute is created as per the 
+              needs of the digital marketing industry. For example, we got advanced 
+              computers and projectors for giving presentations and taking classes.
+               If you are looking for the best digital marketing institute in 
+               Noida with a good infrastructure you can visit us anytime for 
+               the demo classes.</p> <h4><strong>Advanced Computer labs</strong></h4>
+                <p>Our computers are the latest and advanced. The computers are 
+                customized as per the requirements of a digital marketing institute.
+                 The latest and updated software will keep at the pace of the 
+                 corporate world and help you get the best job. Our high-tech 
+                 computer labs make us one of the best digital marketing institutes
+                  in Noida and facilitate our students with all the amazing tools
+                   required to design the best digital marketing campaigns.</p> 
+                   <h4><strong>Faculty</strong></h4> <p>Our faculty members are
+                    all professionals and experienced in digital marketing.
+
+  Most of them are from the corporate world and their experience and understanding 
+  of digital marketing make our institute the <strong>best digital marketing institute
+   in Noida</strong>.  We also have visiting faculty members that hold a higher position
+    at branded digital marketing agencies or taking care of the digital marketing 
+    department of the branded companies.</p> <h4><strong>Our classes Modules
+    </strong></h4> <p>Our modules are really simple and it is very easy to understand
+     even for a beginner. We are covering all the important topics in the simplest
+      manner. If you are a beginner, you need not worry as we are going to tell
+ everything about digital marketing starting from the very basic level. Our modules 
+ contribute a lot in making us the best digital marketing institute in Noida.</p>
+  <p><strong>Fee structure </strong> Our fee structure is reasonable and we keep
+   on offering many discounts as well. A student can pay the fee in installments
+    as well. Our fee structure is really competitive if you compare the
+     <strong>best digital marketing institutes in Noida</strong>. 
+ You can call us for more information on the fee structure of our courses.</p> <p>
+ If you are a student or a working professional in Noida looking for the best 
+digital marketing</a> courses in Noida, we are providing both a basic level and advanced
+ level of digital marketing courses to the students. You can also take a demo class to
+  decide on which course you would like to join. To book a demo class you can call us 
+  or you can leave a query on our website and we will soon come back to us.</p> 
+  <p>Start your journey of digital marketing with Digimanthan. Digimanthan is one of 
+  the leading Digital marketing institutes in Noida. Now we started our <strong>digital
+   marketing institute in Noida</strong>. Digital marketing is now a new way to promote
+    your business. Because nowadays, most people have a smartphone. And digital marketing 
+    is now a smart way to promote your business.</p> <p><strong>
+</strong></p> <p><strong>Digital marketing institute in Noida</strong> is an easier 
+way than online and offline marketing. The best part of digital marketing is that we 
+can target the needy audience. So, we are able to engage the audience in our business. 
+Nowadays digital marketing became compulsory for MBA student. In fact, it's a part of 
+MBA syllabus.</p> <p>Digital marketing institute in Noida gives you the opportunity to 
+boost your resume. Any age group of any stream can do this course. We provide you with 
+better training with great assistance. Digimanthan also provides you with 100% job 
+assistance. So, that after compilation, of course, you have a job in your hand according 
+to your skills. We also provide an internship program for our student.</p> 
+<p>Digimanthan is now one of the leading digital marketing institutes .in Noida We 
+have the best faculties to assist you. We provide a live demo example to student.
+so that they better understand the concept.</p> <p><strong>Digital Marketing Course 
+in </strong>Noida:- Digital Marketing Certificates.<br /> We provide you with nine 
+certificates. With digimanthan's training program become AdWords, analytics, Bing, and 
+facebook certified professions.</p> <h2><strong>Digital Marketing Course in Noida</strong></h2> 
+<p>Total <strong>9 Certification</strong> Provide by Digimanthan.</p> 
+<h4>1.                   AdWords Search Certification.</h4> 
+<h4>2.                   AdWords Shopping Certification.</h4> 
+<h4>3.                   AdWords Mobile Certification.</h4> 
+<h4>4.                   AdWords Display Certification.</h4> 
+<h4>5.                   AdWords Video Certification.</h4> 
+<h4>6.                   Microsoft Bing.</h4> 
+<h4>7.                   Facebook Blueprint.</h4> 
+<h4>8.                   Analytics Certification.</h4> 
+<h4>9.                   Certification of digital marketing (Digi Manthan).</h4> 
+<p>&nbsp;</p> <h2><strong>Digital Marketing Course in Noida</strong></h2> 
+<h3>Duration</h3> <p>This is a short-term course near about 12 weeks.
+ In these twelve weeks, we complete all the modules that mention above. We provide you live training with practical knowledge of the digital world. 
+ Through all this, we ensure a clear understanding of all topics to the students.</p> <p>We provide you both weekdays and weekend classes. 
+ So that if any job profile person what to learn this can easily learn that. On weekdays our classes are from Monday to Thursday. On weekends 
+ we provide classes on Saturday and Sunday.</p> <p>We take care of our student understanding. For that we analysis them from time to time in different parameters. 
+ After the end of the course, we provide you with 100% job assistance. So, you can easily find a job according to your ability.</p> <h2>Why Digital Marketing?</h2> 
+ <p>Now the question comes why anybody does digital marketing? Nowadays the promotion of business through offline method is not so effective. Digital marketing gives 
+ you the opportunity to promote your business online.</p> <p>There are many benefits of digital marketing in comparison to offline marketing. Through digital marketing,
+  you are able to target needy audience. Whereas in offline marketing it's a tough task. Online marketing creates more audience than offline marketing.</p> 
+  <p>Nowadays everybody has a smartphone. People are grown smart now and digital marketing is the smartest way of marketing nowadays. In digital marketing, 
+  you learn how to create ads, how to show them to the targeted audience.</p> <p>We also made you learn as a freelancer. You can work on your conditions in freelancing. 
+  Now the world is growing digitally. It’s your turn to grow digital with <strong>digital marketing institute in Noida</strong>.</p> <p>Digital marketing is the new way 
+  of marketing. We also say this in that way this is modern-day marketing.</p> <h2>Area to learn</h2> <p>What do you learn in a digital marketing course?<br /> 
+  In digital marketing, you learn about different modules. You learn that hoe to rank a webpage on search engine by doing <strong>SEO</strong>(Search Engine Optimization).
+   How to create your own website, how to rank on the top of the search engine. Optimization of social media to grow your business. 
+   Method of online earning etc.</p> <p>Digital marketing institute in Noida Along with these certificates, you became a digital marketer. 
+   The <strong>digital marketing is the 3-month course</strong> in this period we provide you training of digital marketing with various modules. 
+   The modules are designed and developed keeping in mind the latest trend.</p> <p>Which are ongoing in the digital industry. You can also find high ranking jobs.
+    Such as Digital marketing institute in Noida Strategist, Digital Marketing Developer, Digital Marketing Traffic Specialist, and PPC Manager. 
+    After learning this course you will be able to find jobs in these fields.</p> <h4><strong>
+</strong></h4> <h4><strong>Digital marketing institute in Noida</strong> Our</h4> <h4>a page has to take care of audience generation on the website. 
+Analyzing website through different tools.</h4> <h2><strong>Digital marketing course</strong></h2> <p>Benefits- Beat the ranking of the competitor by making a better
+ option or through analyzing their website. Create backlinks on a different website. Take care of DA (Domain Authority) and PA( Page Authority) of the website.</p> 
+ <p>internet marketing simply means utilization of digital thing such as the internet, mobile, laptop, desktop, etc to promote your business online. Digital marketing 
+ is the best way to promote your business. Digital marketing helps you to make your online name. you can promote your business worldwide.</p> <p>Then what are you waiting 
+ for come join our journey of digital marketing? Make your online name grow your business online worldwide. Let the world know you and your business name.</p> 
+ <p><strong>Digimanthan: Digital marketing course is being offered in Noida</strong> provides you with the best experience in digital marketing training. 
+ As we mention above we provide you with 100% job assistance. We are now the leading digital marketing institute in Noida.</p> <p>Our institute is providing 
+ <strong>Digital Marketing Course in Noida</strong> that is a complete job oriented course with high-tech working labs and experienced faculty members. 
+ Our course stands out in hundreds of courses that different institutes are offering in Noida because of the structure of our course. Our course is a complete course 
+ that includes everything about digital marketing with hands-on projects and job placement assistance.</p> <p>We have both short-term and long-term courses for digital 
+ marketing professionals and aspirant who are at a different level in their career. Our short-term courses are designed for advanced-level professionals who want to reach
+  the next level of their career. The long-term courses are for the beginners that include everything starting from the basics of digital marketing to the implementation 
+  of the tools on real projects. Our courses include all the topics like mobile marketing, video promotion, search engine marketing, PPC, content marketing, affiliate 
+  marketing, and social media promotion of a website.</p> <p>The faculty members of our <strong>Digital Marketing Course in Noida</strong> have industry experience that 
+  makes them train the students well. Their exposure to real projects helps them assist the students in making successful campaigns. The focus of our institute is on 
+  giving all-round exposure to the student that helped them developing analytical to measure the ROI of their project. We follow two parallel approaches of knowledge and 
+  its accurate implementation for our students.</p> <p>Digital marketing institute in Noida Come join us an became a part of the digital world. 
+  For more details contact us:-</p> <p> 
+        
+        
   </div>
 </section>
-
-<section class="omi-section omi-background-white omi-text-navy omi-carousel-left-header  no-desktop" data-length="12">
-  <div class="omi-container">
-    <div class="omi-learn-carousel-inner">
-      <div class="row">
-        <div class="col-sm-2">
-                      <div class="omi-carousel-controls">
-              <div>
-                <div class="omi-carousel-control omi-background-navy028 text-center omi-carousel-control-left">
-                  <i class="fa fa-chevron-left"></i>
-                </div>
-              </div>
-            </div>
-                  </div>
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-sm-12 omi-learn-header">
-              <div class="omi-learn-header-inner">
-                <h3 class="omi-learn-header-title">
-                  Topics
-                </h3>
-                <div class="omi-learn-header-description">Keep things flexible while exploring the subjects that fit your needs.</div>
-                <div class="omi-learn-header-cta">
-                  <a href="/find-your-class/#topics">
-                    See all Topics 
-                    <i class="fa fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-                          <div class="col-sm-12  omi-common-card-wrapper"  data-group="1">
-                <a class="omi-common-card" href="/classes/social-media-marketing-classes">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083702/Topic-social-media-marketing.jpg" alt="Social Media Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Social Media Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    57 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-                <a class="omi-common-card" href="/classes/content-marketing">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09082914/topic-content-marketing.jpg" alt="Content Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Content Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    54 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="3">
-                <a class="omi-common-card" href="/classes/analytics">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09081216/Topic-Analytics.jpg" alt="Analytics">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Analytics
-  </span>
-  <span class="omi-common-card-footer">
-    39 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="4">
-                <a class="omi-common-card" href="/classes/other">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083548/Topic-Other.jpg" alt="Other">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Other
-  </span>
-  <span class="omi-common-card-footer">
-    35 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="5">
-                <a class="omi-common-card" href="/classes/mobile-marketing">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083509/Topic-Mobile-Marketing.jpg" alt="Mobile Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Mobile Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    25 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="6">
-                <a class="omi-common-card" href="/classes/seo">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083618/Topic-seo.jpg" alt="SEO">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    SEO
-  </span>
-  <span class="omi-common-card-footer">
-    24 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="7">
-                <a class="omi-common-card" href="/classes/brand-and-consumer-insights">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09081340/Topic-Brand-and-Consumer-Insights.jpg" alt="Brand and Consumer Insights">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Brand and Consumer Insights
-  </span>
-  <span class="omi-common-card-footer">
-    24 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="8">
-                <a class="omi-common-card" href="/classes/email-marketing">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083331/Topic-Email-Marketing.jpg" alt="Email Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Email Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    20 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="9">
-                <a class="omi-common-card" href="/classes/digital-advertising">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083250/Topic-Digital-Advertising.jpg" alt="Digital Advertising">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Digital Advertising
-  </span>
-  <span class="omi-common-card-footer">
-    19 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="10">
-                <a class="omi-common-card" href="/classes/customer-journey">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09082952/Topic-Customer-Journey.jpg" alt="Customer Journey">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Customer Journey
-  </span>
-  <span class="omi-common-card-footer">
-    17 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="11">
-                <a class="omi-common-card" href="/classes/b2b-marketing">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09081257/Topic-B2B-Marketing.jpg" alt="B2B Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    B2B Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    7 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="12">
-                <a class="omi-common-card" href="/classes/marketing-and-advertising-technology">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083409/Topic-marketing-advertising-technology.png" alt="Marketing and Advertising Technology">
-  </span>
-  <span class="omi-common-card-title">
-    Topic
-  </span>
-  <span class="omi-common-card-description">
-    Marketing and Advertising Technology
-  </span>
-  <span class="omi-common-card-footer">
-    6 classes
-  </span>
-</a>
-              </div>
-                      </div>
-        </div>
-        <div class="col-sm-2">
-                      <div class="omi-carousel-controls">
-              <div>
-                <div class="omi-carousel-control omi-background-navy028 text-center omi-carousel-control-right">
-                  <i class="fa fa-chevron-right"></i>
-                </div>
-              </div>
-            </div>
-                  </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <section class="omi-section omi-background-white omi-text-navy omi-carousel-left-header padding-no-top no-mobile" data-length="2">
-  <div class="omi-container">
-          <div class="omi-carousel-controls">
-        <div>
-          <div class="omi-carousel-control omi-background-navy028 text-center omi-carousel-control-left">
-            <div class="fa fa-chevron-left"></div>
-          </div>
-          <div class="omi-carousel-control omi-background-navy028 text-center omi-carousel-control-right">
-            <div class="fa fa-chevron-right"></div>
-          </div>
-        </div>
-      </div>
-        <div class="omi-learn-carousel-inner">
-      <div class="row">
-        <div class="col-md-3 col-sm-12 omi-learn-header">
-          <div class="omi-learn-header-inner">
-            <h3 class="omi-learn-header-title">
-              Certifications
-            </h3>
-            <div class="omi-learn-header-description">Explore digital marketing tactics and strategies in greater depth and earn your credentials after passing a final exam.</div>
-            <div class="omi-learn-header-cta">
-              <a href="/find-your-class/#certifications">
-                See all Certifications 
-              </a>
-            </div>
-          </div>
-        </div>
-                  <div class="col-md-3 col-sm-12  omi-common-card-wrapper"  data-group="1">
-            <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/analytics/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09081216/Topic-Analytics-300x170.jpg" alt="Analytics">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Analytics
-  </span>
-  <span class="omi-common-card-footer">
-    10 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12  omi-common-card-wrapper"  data-group="1">
-            <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/mobile-marketing-certification-2/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/01/09083852/mobile-marketing-certification-300x170.jpg" alt="Mobile Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Mobile Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    7 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12  omi-common-card-wrapper"  data-group="1">
-            <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/social-media-marketing-certification-2/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083702/Topic-social-media-marketing-300x170.jpg" alt="Social Media Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Social Media Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    11 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-            <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/social-media-fundamentals-facebook-certification/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/05/09083958/facebook-fundamentals-certification-300x170.jpg" alt="Facebook Fundamentals">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Facebook Fundamentals
-  </span>
-  <span class="omi-common-card-footer">
-    6 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-            <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/digital-fundamentals-certification/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/04/09084027/digital-marketing-fundamentals-certification-300x170.jpg" alt="Digital Marketing Fundamentals">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Digital Marketing Fundamentals
-  </span>
-  <span class="omi-common-card-footer">
-    6 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-            <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/content-marketing-certification-2/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09082914/topic-content-marketing-300x170.jpg" alt="Content Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Content Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    6 classes
-  </span>
-</a>
-          </div>
-              </div>
-    </div>
-  </div>
-</section>
-
-<section class="omi-section omi-background-white omi-text-navy omi-carousel-left-header padding-no-top no-desktop" data-length="6">
-  <div class="omi-container">
-    <div class="omi-learn-carousel-inner">
-      <div class="row">
-        <div class="col-sm-2">
-                      <div class="omi-carousel-controls">
-              <div>
-                <div class="omi-carousel-control omi-background-navy028 text-center omi-carousel-control-left">
-                  <i class="fa fa-chevron-left"></i>
-                </div>
-              </div>
-            </div>
-                  </div>
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-sm-12 omi-learn-header">
-              <div class="omi-learn-header-inner">
-                <h3 class="omi-learn-header-title">
-                  Certifications
-                </h3>
-                <div class="omi-learn-header-description">Explore digital marketing tactics and strategies in greater depth and earn your credentials after passing a final exam.</div>
-                <div class="omi-learn-header-cta">
-                  <a href="/find-your-class/#certifications">
-                    See all Certifications 
-                    <i class="fa fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-                          <div class="col-sm-12  omi-common-card-wrapper"  data-group="1">
-                <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/analytics/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09081216/Topic-Analytics-300x170.jpg" alt="Analytics">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Analytics
-  </span>
-  <span class="omi-common-card-footer">
-    10 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-                <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/mobile-marketing-certification-2/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/01/09083852/mobile-marketing-certification-300x170.jpg" alt="Mobile Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Mobile Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    7 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="3">
-                <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/social-media-marketing-certification-2/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09083702/Topic-social-media-marketing-300x170.jpg" alt="Social Media Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Social Media Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    11 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="4">
-                <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/social-media-fundamentals-facebook-certification/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/05/09083958/facebook-fundamentals-certification-300x170.jpg" alt="Facebook Fundamentals">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Facebook Fundamentals
-  </span>
-  <span class="omi-common-card-footer">
-    6 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="5">
-                <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/digital-fundamentals-certification/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/04/09084027/digital-marketing-fundamentals-certification-300x170.jpg" alt="Digital Marketing Fundamentals">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Digital Marketing Fundamentals
-  </span>
-  <span class="omi-common-card-footer">
-    6 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="6">
-                <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/certifications/content-marketing-certification-2/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/09082914/topic-content-marketing-300x170.jpg" alt="Content Marketing">
-  </span>
-  <span class="omi-common-card-title">
-    Certification
-  </span>
-  <span class="omi-common-card-description">
-    Content Marketing
-  </span>
-  <span class="omi-common-card-footer">
-    6 classes
-  </span>
-</a>
-              </div>
-                      </div>
-        </div>
-        <div class="col-sm-2">
-                      <div class="omi-carousel-controls">
-              <div>
-                <div class="omi-carousel-control omi-background-navy028 text-center omi-carousel-control-right">
-                  <i class="fa fa-chevron-right"></i>
-                </div>
-              </div>
-            </div>
-                  </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <section class="omi-section omi-background-white omi-text-navy omi-carousel-left-header padding-no-top no-mobile" data-length="1">
-  <div class="omi-container">
-        <div class="omi-learn-carousel-inner">
-      <div class="row">
-        <div class="col-md-3 col-sm-12 omi-learn-header">
-          <div class="omi-learn-header-inner">
-            <h3 class="omi-learn-header-title">
-              Series
-            </h3>
-            <div class="omi-learn-header-description">Curated collection of related classes designed to quickly increase your knowledge.</div>
-            <div class="omi-learn-header-cta">
-              <a href="/find-your-class/#series">
-                See all Series 
-              </a>
-            </div>
-          </div>
-        </div>
-                  <div class="col-md-3 col-sm-12  omi-common-card-wrapper"  data-group="1">
-            <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/series/think-like-cmo/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/02/09084149/think-like-cmo-serie-300x169.png" alt="Think Like a CMO">
-  </span>
-  <span class="omi-common-card-title">
-    Series
-  </span>
-  <span class="omi-common-card-description">
-    Think Like a CMO
-  </span>
-  <span class="omi-common-card-footer">
-    4 classes
-  </span>
-</a>
-          </div>
-                  <div class="col-md-3 col-sm-12  omi-common-card-wrapper"  data-group="1">
-            <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/series/real-estate/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/11/09084228/real-state-300x170.jpg" alt="Real Estate">
-  </span>
-  <span class="omi-common-card-title">
-    Series
-  </span>
-  <span class="omi-common-card-description">
-    Real Estate
-  </span>
-  <span class="omi-common-card-footer">
-    31 classes
-  </span>
-</a>
-          </div>
-              </div>
-    </div>
-  </div>
-</section>
-
-<section class="omi-section omi-background-white omi-text-navy omi-carousel-left-header padding-no-top no-desktop" data-length="2">
-  <div class="omi-container">
-    <div class="omi-learn-carousel-inner">
-      <div class="row">
-        <div class="col-sm-2">
-                      <div class="omi-carousel-controls">
-              <div>
-                <div class="omi-carousel-control omi-background-navy028 text-center omi-carousel-control-left">
-                  <i class="fa fa-chevron-left"></i>
-                </div>
-              </div>
-            </div>
-                  </div>
-        <div class="col-sm-8">
-          <div class="row">
-            <div class="col-sm-12 omi-learn-header">
-              <div class="omi-learn-header-inner">
-                <h3 class="omi-learn-header-title">
-                  Series
-                </h3>
-                <div class="omi-learn-header-description">Curated collection of related classes designed to quickly increase your knowledge.</div>
-                <div class="omi-learn-header-cta">
-                  <a href="/find-your-class/#series">
-                    See all Series 
-                    <i class="fa fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-                          <div class="col-sm-12  omi-common-card-wrapper"  data-group="1">
-                <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/series/think-like-cmo/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/02/09084149/think-like-cmo-serie-300x169.png" alt="Think Like a CMO">
-  </span>
-  <span class="omi-common-card-title">
-    Series
-  </span>
-  <span class="omi-common-card-description">
-    Think Like a CMO
-  </span>
-  <span class="omi-common-card-footer">
-    4 classes
-  </span>
-</a>
-              </div>
-                          <div class="col-sm-12 hidden omi-common-card-wrapper"  data-group="2">
-                <a class="omi-common-card" href="https://www.onlinemarketinginstitute.org/series/real-estate/">
-  <span class="omi-common-card-image">
-    <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/11/09084228/real-state-300x170.jpg" alt="Real Estate">
-  </span>
-  <span class="omi-common-card-title">
-    Series
-  </span>
-  <span class="omi-common-card-description">
-    Real Estate
-  </span>
-  <span class="omi-common-card-footer">
-    31 classes
-  </span>
-</a>
-              </div>
-                      </div>
-        </div>
-        <div class="col-sm-2">
-                      <div class="omi-carousel-controls">
-              <div>
-                <div class="omi-carousel-control omi-background-navy028 text-center omi-carousel-control-right">
-                  <i class="fa fa-chevron-right"></i>
-                </div>
-              </div>
-            </div>
-                  </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <section class="omi-section omi-bs-wgt omi-background-navy10 omi-text-navy">
-    <div class="omi-container">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 no-desktop">
-          <img style="width: 100%" src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/01185635/bussines-solutions-img.png" alt="hands and devices">
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <h4 class="omi-h4 omi-text-navy">Business Solutions</h4>
-          <h3 class="omi-h3 omi-text-navy learning-title">Keep your teams up-to-date with the latest digital marketing skills</h3>
-          <p class="omi-learning-description omi-text-bd">OMI works with you to assess proficiency and knowledge gaps. Customized training programs help employees master the critical marketing tactics and strategies that drive business growth.</p>
-          <p><a class="omi-btn-primary" href="/business-solutions">Learn more</a></p>
-        </div>
-        <div class="col-md-6 col-sm-12 no-mobile">
-          <img style="width: 100%" src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/01185635/bussines-solutions-img.png" alt="hands and devices">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="omi-section omi-stats omi-background-navy omi-text-white">
-  <div class="omi-container">
-    <div class="row">
-      <div class="col-md-4">
-        <div class="omi-stat omi-stat-first">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="omi-h2 omi-stats-title">350+</h2>
-            </div>
-            <div class="col-md-12">
-              <div class="omi-stats-description">
-                <span><i class="fa fa-video-camera"></i></span>
-                <span>Video Lessons</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="omi-stat">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="omi-h2 omi-stats-title">12</h2>
-            </div>
-            <div class="col-md-12">
-              <div class="omi-stats-description">
-                <span><i class="fa fa-list-alt"></i></span>
-                <span>Topics Covered</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="omi-stat omi-stat-last">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="omi-h2 omi-stats-title">10 Years</h2>
-            </div>
-            <div class="col-md-12">
-              <div class="omi-stats-description">
-                <span><i class="fa fa-calendar"></i></span>
-                <span>Training in Digital Marketing</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <section class="omi-text-navy omi-quotes omi-background-white">
-  <div class="omi-container">
-    <div class="row">
-      <div class="omi-background-white wgt-omi-value-section col-md-12 col-sm-12">
-        <div class="omi-quotes-controls">
-          <div>
-            <div class="omi-quotes-control omi-background-navy028 text-center omi-quotes-control-left">
-              <span>testing</span>
-            </div>
-            <div class="omi-quotes-control omi-background-navy028 text-center omi-quotes-control-right">
-              <span>testing1</span>
-            </div>
-          </div>
-        </div>
-        <div class="omi-quotes-inner" data-length="5">
-          <h3 class="omi-h3 omi-text-navy text-center">Our Expertise. Your Success.</h3>
-                      <div id="quote-1" class="omi-single-quote" style="">
-              <p class="omi-text-md omi-value-quote">"Digital marketing is constantly changing. OMI's classes help me keep my skills sharp so that I never miss a beat on the latest trends and changes in the industry."</p>
-              <div class="omi-value-instructor">
-                <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/01/22114347/Nancy_Mamann-1.jpg" alt="picture of Jane">
-                <div>
-                  <h4>Nancy Mamman</h4>
-                  <p>
-                    former VP, Global Marketing & Brand Creative, UGG Australia
-                  </p>
-                                      <div class="omi-logo text-left">
-                      <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/03/13094119/logo-ugg-v2.png" class="" alt="corporate logo">
-                    </div>
-                                  </div>
-              </div>
-            </div>
-                      <div id="quote-2" class="omi-single-quote" style=" display: none; ">
-              <p class="omi-text-md omi-value-quote">"I'm proud to say, we've got the entire team learning digital marketing in a scaleable, standardized way. The level of engagement we're seeing with OMI's Digital Essentials eLearning Program with JWT employees all over world has been unlike any training program I've ever known."</p>
-              <div class="omi-value-instructor">
-                <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2015/10/john-baker.png" alt="picture of Jane">
-                <div>
-                  <h4>John Baker</h4>
-                  <p>
-                    CMO of Mirum Agency (part of the J. Walter Thompson Company and the WPP Network)
-                  </p>
-                                      <div class="omi-logo text-left">
-                      <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/03/13094120/mirum-logo.png" class="" alt="corporate logo">
-                    </div>
-                                  </div>
-              </div>
-            </div>
-                      <div id="quote-3" class="omi-single-quote" style=" display: none; ">
-              <p class="omi-text-md omi-value-quote">"Working with the OMI team to build our customized content marketing portal was a seamless experience. The team was able to provide valuable insight and expertise on how adults learn. They sourced quality experts and produced engaging classes full of valuable content as well as integrated our own class content. Our clients have provided positive feedback regarding the platform, the bite sized content and have benefited from the assessments. OMI enabled a refreshing approach that has kept our clients engaged and eager to come back for more"</p>
-              <div class="omi-value-instructor">
-                <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/01/22114519/1_268_401_0_100_campaign-asia_content_nancywillis_linkedin_campaignasia_468x312-1.jpg" alt="picture of Jane">
-                <div>
-                  <h4>Nancy Willis</h4>
-                  <p>
-                    Director, Agency and Channel Partnerships, Asia at LinkedIn
-                  </p>
-                                      <div class="omi-logo text-left">
-                      <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/03/13094117/linkedin-testimonials-logo.png" class="" alt="corporate logo">
-                    </div>
-                                  </div>
-              </div>
-            </div>
-                      <div id="quote-4" class="omi-single-quote" style=" display: none; ">
-              <p class="omi-text-md omi-value-quote">"I want to say how amazing I am finding the course. This is career changing for me - thank you so much for the opportunity!"</p>
-              <div class="omi-value-instructor">
-                <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/30173346/image6.jpg" alt="picture of Jane">
-                <div>
-                  <h4>Esra Marie Kelham</h4>
-                  <p>
-                    Customer
-                  </p>
-                                  </div>
-              </div>
-            </div>
-                      <div id="quote-5" class="omi-single-quote" style=" display: none; ">
-              <p class="omi-text-md omi-value-quote">"After years of dreaming about one day opening my business I'm finally taking the plunge. It's pretty scary and overwhelming, but Online Marketing Institute is helping to make it easier. With their videos and resources, it's easier for me to learn the skills that I will need to run my online business one day."</p>
-              <div class="omi-value-instructor">
-                <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/30174839/image8.png" alt="picture of Jane">
-                <div>
-                  <h4>Rebecca Mathewson</h4>
-                  <p>
-                    NY Time Best Selling Author
-                  </p>
-                                  </div>
-              </div>
-            </div>
-                  </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-  <section class="omi-section omi-background-navy10 omi-digital-iq">
-    <div class="omi-container">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 omi-digitaliq-sm">
-          <img style="width: 100%" src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/05/01185639/test-your-skills.png" alt="man with a laptop">
-        </div>
-        <div class="col-md-6 col-sm-12 omi-text-navy omi-assessment" style="padding-left: 3em;">
-          <h3 class="omi-h3">Test your Skills with our Digital Marketing IQ Assesment</h3>
-          <p class="omi-assessment-desc">Test your digital marketing knowledge and identify any areas where training is needed.</p>
-          <p><a class="omi-btn-primary" href="/digital-iq">Test your skills</a></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="omi-wgt-new omi-section">
-  <h3 class="omi-h3 omi-wgt-new-title">What's New</h3>
-
-  <div class="omi-container">
-    <div class="row">
-            <div class="col-sm-8 col-md-3 col-md-offset-0 col-sm-offset-2">
-        <article class="omi-article" data-omilink="https://www.onlinemarketinginstitute.org/blog/webinar/are-you-future-ready/">
-          <img alt="Think Like a CMO: Are You Future Ready? image" src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/06/21071417/480x270px.navy_.04-300x169.jpg">
-          <div class="omi-article-description">
-            <p class="omi-article-type">Webinar</p>
-            <a class="omi-article-title" href="https://www.onlinemarketinginstitute.org/blog/webinar/are-you-future-ready/">Think Like a CMO: Are You Future Ready?</a>
-            <p class="omi-article-info">Sign up now for this free event.
-            </p>
-            <p class="omi-article-date">July 25th at 12:00pm PDT</p>
-          </div>
-        </article>
-      </div>
-
-            <div class="col-sm-8 col-md-3 col-md-offset-0 col-sm-offset-2">
-        <article class="omi-article" data-omilink="https://www.onlinemarketinginstitute.org/blog/2018/09/extend-brand-building-podcast-strategy/">
-          <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/09/09120456/podcast.png" alt="How to Extend Your Brand by Building a Podcast Strategy post image">
-          <div class="omi-article-description">
-            <p class="omi-article-type">Article</p>
-            <a class="omi-article-title" href="https://www.onlinemarketinginstitute.org/blog/2018/09/extend-brand-building-podcast-strategy/">How to Extend Your Brand by Building a Podca...</a>
-                        <p class="omi-article-date">September 9th</p>
-          </div>
-        </article>
-      </div>
-
-      <div class="col-sm-8 col-md-3 col-md-offset-0 col-sm-offset-2">
-        <article class="omi-article" data-omilink="/starter-kit/">
-          <img alt="computer, notebook and coffee on top of desktop" src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/12/27083822/HP-Starter-Kit-240x135-high.jpg">
-          <div class="omi-article-description">
-            <p class="omi-article-type">Starter Kit</p>
-            <a class="omi-article-title" href="/starter-kit/">Free 6 video series: Digital Marketing Starter Kit</a>
-            <p class="omi-article-date">January 21</p>
-          </div>
-        </article>
-      </div>
-
-      <div class="col-sm-8 col-md-3 col-md-offset-0 col-sm-offset-2">
-        <article class="omi-article" data-omi-link="/series/think-like-cmo/">
-          <img alt="Deborah Wahl" src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/01/20074110/baner-240x185.jpg">
-          <div class="omi-article-description">
-            <p class="omi-article-type">Series</p>
-            <a class="omi-article-title" href="/series/think-like-cmo/">Think like a CMO</a>
-                        <p class="omi-article-date">January 21st</p>
-          </div>
-        </article>
-      </div>
-
-    </div>
-  </div>
-</div>
 
   
-<section class="omi-section omi-background-white omi-blog-recent-posts">
-  <div class="omi-container">
-    <div class="row" style="margin-top: 2em;">
-      <div class="col-md-12 col-sm-12 omi-text-navy omi-recent-posts-header">
-        <h3 class="omi-h3 omi-recent-posts-title">What's new on our blog</h3>
-        <p class="omi-recent-posts-subtitle">Keep up with the latest news, tips and trending topics in
-          <span class="text-bold">digital marketing</span>
-        </p>
-      </div>
-      <div class="col-md-12 col-md-offset-0 col-sm-8 col-sm-offset-2">
-        <div class="row">
-                      <div class="col-md-4">
-              <div class="omi-recent-post omi-text-navy">
-                <a class="omi-recent-post-thumb" href="https://www.onlinemarketinginstitute.org/blog/2018/09/extend-brand-building-podcast-strategy/">
-                  <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/09/09120456/podcast.png" alt="How to Extend Your Brand by Building a Podcast Strategy">
-                </a>
-                <a class="omi-recent-post-title omi-text-lg" href="https://www.onlinemarketinginstitute.org/blog/2018/09/extend-brand-building-podcast-strategy/">
-                  How to Extend Your Brand by Building a Podcast Strategy
-                </a>
-                <div class="omi-recent-post-preview">
-                  
-A decade ago, I was asked to co-host a weekly podcast about fatherhood. For five years, I co-hosted a 30-minute podcast called DadsUnplugged. Unfortu...
-                  <a class="read-more" href="https://www.onlinemarketinginstitute.org/blog/2018/09/extend-brand-building-podcast-strategy/">Read More </a>
-                </div>
-              </div>
-            </div>
-                      <div class="col-md-4">
-              <div class="omi-recent-post omi-text-navy">
-                <a class="omi-recent-post-thumb" href="https://www.onlinemarketinginstitute.org/blog/2018/08/guest-posting-still-important-part-digital-marketing-strategy/">
-                  <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/09/11131939/iStock-6385843741.jpg" alt="Guest Posting: Still An Important Part of Your Digital Marketing Strategy">
-                </a>
-                <a class="omi-recent-post-title omi-text-lg" href="https://www.onlinemarketinginstitute.org/blog/2018/08/guest-posting-still-important-part-digital-marketing-strategy/">
-                  Guest Posting: Still An Important Part of Your Digital Marketing Strategy
-                </a>
-                <div class="omi-recent-post-preview">
-                  
-Establishing a brand as a blogger (or an aspiring blogger) is an essential factor in ensuring you gain a wide readership base as well as in establish...
-                  <a class="read-more" href="https://www.onlinemarketinginstitute.org/blog/2018/08/guest-posting-still-important-part-digital-marketing-strategy/">Read More </a>
-                </div>
-              </div>
-            </div>
-                      <div class="col-md-4">
-              <div class="omi-recent-post omi-text-navy">
-                <a class="omi-recent-post-thumb" href="https://www.onlinemarketinginstitute.org/blog/2018/08/6-influencer-marketing-case-studies-phenomenal-success/">
-                  <img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/09/11113826/tap_influence_graphic1.jpg" alt="6 Influencer Marketing Case Studies With Phenomenal Success">
-                </a>
-                <a class="omi-recent-post-title omi-text-lg" href="https://www.onlinemarketinginstitute.org/blog/2018/08/6-influencer-marketing-case-studies-phenomenal-success/">
-                  6 Influencer Marketing Case Studies With Phenomenal Success
-                </a>
-                <div class="omi-recent-post-preview">
-                  
-Influencer marketing has come of age to become the next big thing in digital marketing. The growing influence of this form of marketing has turned he...
-                  <a class="read-more" href="https://www.onlinemarketinginstitute.org/blog/2018/08/6-influencer-marketing-case-studies-phenomenal-success/">Read More </a>
-                </div>
-              </div>
-            </div>
-                  </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-  <section class="omi-customers omi-background-navy omi-section">
-  <div class="omi-container">
-    <h4 class="omi-h4 omi-text-white companies-title">Helping top talent stay ahead</h4>
-    <div class="row">
-      <div class="col-md-3 col-sm-6"><img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/10/06112157/met-life-logo.png" alt="MetLife's Logo" class="omi-customers-item"></div>
-      <div class="col-md-3 col-sm-6"><img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/10/06112155/jwt-logo.png" alt="JWT's Logo" class="omi-customers-item"></div>
-      <div class="col-md-3 col-sm-6"><img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/10/06112153/bitmap.png" alt="BigCommerce's Logo" class="omi-customers-item"></div>
-      <div class="col-md-3 col-sm-6"><img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/10/06112151/zeno-logo.png" alt="Zeno's Logo" class="omi-customers-item"></div>
-      <div class="col-md-3 col-sm-6"><img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/10/06112149/mind-body-logo.png" alt="MindBody's Logo" class="omi-customers-item"></div>
-      <div class="col-md-3 col-sm-6"><img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2017/10/06112146/cat-logo.png" alt="Caterpillar's Logo" class="omi-customers-item"></div>
-      <div class="col-md-3 col-sm-6"><img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/01/18095043/mckesson.png" alt="Caterpillar's Logo" class="omi-customers-item"></div>
-      <div class="col-md-3 col-sm-6"><img src="https://s3.amazonaws.com/omiweb/wp-content/uploads/2018/01/19183344/linkedin-logo-white.png" alt="Caterpillar's Logo" class="omi-customers-item"></div>
-    </div>
-  </div>
-</section>
 
-    <section class="omi-banner-cta omi-background-green omi-text-white omi-start-free-trial">
-    <div class="omi-container">
-      <div class="row">
-        <p class="omi-text-lg col-sm-12 omi-banner-text">Your evolution starts here. Try our classes for free.<a class="omi-btn-cta-alt" href="/checkout">10 day free trial</a></p>
-        <p class="col-sm-12 omi-banner-cta-button"><a class="omi-btn-cta-alt" href="/checkout">10 day free trial</a></p>
-      </div>
-    </div>
-  </section>
+
+  
+
+
+
+  
+
+
+
+ 
+
+ 
+
+  
+
+
+
+ 
+
+  
+
+  
+
+
+  
+
+   
 
 
 </div><!-- close .main-content -->
