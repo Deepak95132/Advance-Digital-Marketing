@@ -8,7 +8,57 @@
   <title>Advance Digital Marketing Training - Online Marketing Institute</title>
  <link rel="stylesheet" href="/AdvanceDigitalMarketing/resources/css/login.css">
   
+  <style type="text/css">
+ table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 50px;
+  text-align: center;
+  margin-left: 50px;
+}
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#t01 th {
+  background-color: black;
+  color: white;
+}
+
+#movebutton,#movebutton1 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border:none;
   
+}
+
+#movebutton,#movebutton1:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+  </style>
  
   	
 				<script> var theChampFBKey = '848941248520436', theChampFBLang = 'en_US', theChampFbLikeMycred = 0, theChampSsga = 0, theChampCommentNotification = 0, theChampHeateorFcmRecentComments = 0, theChampFbIosLogin = 0; </script>
@@ -406,8 +456,8 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
   
   <section class="omi-section omi-simple-block omi-background-white omi-text-navy omi-choose-your-path-title">
   <div class="omi-container">
-          <h3 class="omi-h3 omi-text-navi">Choose your learning path</h3>
-        <p class="omi-text-lg">Get certified by industry leaders or master a specific topic, on your own schedule, anywhere at any time.</p>
+          <h3 class="omi-h3 omi-text-navi">Student Details </h3>
+         
     <div class="row omi-buttons-row">
       <div class="omi-buttons-container">
               </div>
@@ -430,138 +480,93 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
       </div>
         
         
-        
-        <p>If you are looking for a digital marketing course in Ballabgarh,
-         we are one of the <strong>best digital marketing institutes in
-          Ballabgarh</strong>. Our greatest strength is that we focus on the 
-          application of digital marketing principles and not only on the
-           theories. At our institute, the lessons of digital marketing 
-           are given by the faculty members that have many years working in 
-           the corporate market and know many techniques that only professionals
-            know. We are feeling proud to announce that we have successfully 
-            placed many students in good companies and digital marketing agencies.
-             Our network of professionals is really big that in-turn helps our 
-             students in becoming digital marketing experts that every company 
-             wants to hire. If you also want to become a student of the <strong>best 
-             digital marketing course in Ballabgarh</strong>, you call us for the demo class
-           and start your journey of becoming an expert in digital marketing.</p>
-            <p><strong>Infrastructure</strong>  Our infrastructure is decent and you
-             will feel good and love the ambiance of our institute. Our classrooms
-              are really spacious that will make you feel comfortable and you will 
-              enjoy the sessions with comfort. Our institute is created as per the 
-              needs of the digital marketing industry. For example, we got advanced 
-              computers and projectors for giving presentations and taking classes.
-               If you are looking for the best digital marketing institute in 
-               Ballabgarh with a good infrastructure you can visit us anytime for 
-               the demo classes.</p> <h4><strong>Advanced Computer labs</strong></h4>
-                <p>Our computers are the latest and advanced. The computers are 
-                customized as per the requirements of a digital marketing institute.
-                 The latest and updated software will keep at the pace of the 
-                 corporate world and help you get the best job. Our high-tech 
-                 computer labs make us one of the best digital marketing institutes
-                  in Ballabgarh and facilitate our students with all the amazing tools
-                   required to design the best digital marketing campaigns.</p> 
-                   <h4><strong>Faculty</strong></h4> <p>Our faculty members are
-                    all professionals and experienced in digital marketing.
+       <table style="width:100%;" id="t01">
+       <tr>
+       <th>
+		S/N       
+       </th>
+       <th>
+      Student Name
+       </th>
+       <th>
+       Ph. Number
+       </th>
+       <th>
+       Student's Address
+       </th>
+       </tr>
+        <tr>
+       <td>
+		1
+       </td>
+       <td>
+       Name
+       </td>
+       <td>
+       Phone Number
+       </td>
+       <td>
+       Address
+       </td>
+       </tr>
+        <tr>
+       <td>
+		1       
+       </td>
+       <td>
+       Name
+       </td>
+       <td>
+       Phone Number
+       </td>
+       <td>
+       Address
+       </td>
+       </tr>
+        <tr>
+       <td>
+		2      
+       </td>
+       <td>
+       Name
+       </td>
+       <td>
+       Phone Number
+       </td>
+       <td>
+       Address
+       </td>
+       </tr>
+        <tr>
+       <td>
+		3      
+       </td>
+       <td>
+       Name
+       </td>
+       <td>
+       Phone Number
+       </td>
+       <td>
+       Address
+       </td>
+       </tr>
+       </table>
+       <br/>
+       
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#" class="previous" id="movebutton">&laquo; Previous</a>
+<a href="#" class="next" id ="movebutton1">Next &raquo;</a>
 
-  Most of them are from the corporate world and their experience and understanding 
-  of digital marketing make our institute the <strong>best digital marketing institute
-   in Ballabgarh</strong>.  We also have visiting faculty members that hold a higher position
-    at branded digital marketing agencies or taking care of the digital marketing 
-    department of the branded companies.</p> <h4><strong>Our classes Modules
-    </strong></h4> <p>Our modules are really simple and it is very easy to understand
-     even for a beginner. We are covering all the important topics in the simplest
-      manner. If you are a beginner, you need not worry as we are going to tell
- everything about digital marketing starting from the very basic level. Our modules 
- contribute a lot in making us the best digital marketing institute in Ballabgarh.</p>
-  <p><strong>Fee structure </strong> Our fee structure is reasonable and we keep
-   on offering many discounts as well. A student can pay the fee in installments
-    as well. Our fee structure is really competitive if you compare the
-     <strong>best digital marketing institutes in Ballabgarh</strong>. 
- You can call us for more information on the fee structure of our courses.</p> <p>
- If you are a student or a working professional in Ballabgarh looking for the best 
-digital marketing</a> courses in Ballabgarh, we are providing both a basic level and advanced
- level of digital marketing courses to the students. You can also take a demo class to
-  decide on which course you would like to join. To book a demo class you can call us 
-  or you can leave a query on our website and we will soon come back to us.</p> 
-  <p>Start your journey of digital marketing with Digimanthan. Digimanthan is one of 
-  the leading Digital marketing institutes in Ballabgarh. Now we started our <strong>digital
-   marketing institute in Ballabgarh</strong>. Digital marketing is now a new way to promote
-    your business. Because nowadays, most people have a smartphone. And digital marketing 
-    is now a smart way to promote your business.</p> <p><strong>
-</strong></p> <p><strong>Digital marketing institute in Ballabgarh</strong> is an easier 
-way than online and offline marketing. The best part of digital marketing is that we 
-can target the needy audience. So, we are able to engage the audience in our business. 
-Nowadays digital marketing became compulsory for MBA student. In fact, it's a part of 
-MBA syllabus.</p> <p>Digital marketing institute in Ballabgarh gives you the opportunity to 
-boost your resume. Any age group of any stream can do this course. We provide you with 
-better training with great assistance. Digimanthan also provides you with 100% job 
-assistance. So, that after compilation, of course, you have a job in your hand according 
-to your skills. We also provide an internship program for our student.</p> 
-<p>Digimanthan is now one of the leading digital marketing institutes .in Ballabgarh We 
-have the best faculties to assist you. We provide a live demo example to student.
-so that they better understand the concept.</p> <p><strong>Digital Marketing Course 
-in </strong>Ballabgarh:- Digital Marketing Certificates.<br /> We provide you with nine 
-certificates. With digimanthan's training program become AdWords, analytics, Bing, and 
-facebook certified professions.</p> <h2><strong>Digital Marketing Course in Ballabgarh</strong></h2> 
-<p>Total <strong>9 Certification</strong> Provide by Digimanthan.</p> 
-<h4>1.                   AdWords Search Certification.</h4> 
-<h4>2.                   AdWords Shopping Certification.</h4> 
-<h4>3.                   AdWords Mobile Certification.</h4> 
-<h4>4.                   AdWords Display Certification.</h4> 
-<h4>5.                   AdWords Video Certification.</h4> 
-<h4>6.                   Microsoft Bing.</h4> 
-<h4>7.                   Facebook Blueprint.</h4> 
-<h4>8.                   Analytics Certification.</h4> 
-<h4>9.                   Certification of digital marketing (Digi Manthan).</h4> 
-<p>&nbsp;</p> <h2><strong>Digital Marketing Course in Ballabgarh</strong></h2> 
-<h3>Duration</h3> <p>This is a short-term course near about 12 weeks.
- In these twelve weeks, we complete all the modules that mention above. We provide you live training with practical knowledge of the digital world. 
- Through all this, we ensure a clear understanding of all topics to the students.</p> <p>We provide you both weekdays and weekend classes. 
- So that if any job profile person what to learn this can easily learn that. On weekdays our classes are from Monday to Thursday. On weekends 
- we provide classes on Saturday and Sunday.</p> <p>We take care of our student understanding. For that we analysis them from time to time in different parameters. 
- After the end of the course, we provide you with 100% job assistance. So, you can easily find a job according to your ability.</p> <h2>Why Digital Marketing?</h2> 
- <p>Now the question comes why anybody does digital marketing? Nowadays the promotion of business through offline method is not so effective. Digital marketing gives 
- you the opportunity to promote your business online.</p> <p>There are many benefits of digital marketing in comparison to offline marketing. Through digital marketing,
-  you are able to target needy audience. Whereas in offline marketing it's a tough task. Online marketing creates more audience than offline marketing.</p> 
-  <p>Nowadays everybody has a smartphone. People are grown smart now and digital marketing is the smartest way of marketing nowadays. In digital marketing, 
-  you learn how to create ads, how to show them to the targeted audience.</p> <p>We also made you learn as a freelancer. You can work on your conditions in freelancing. 
-  Now the world is growing digitally. It’s your turn to grow digital with <strong>digital marketing institute in Ballabgarh</strong>.</p> <p>Digital marketing is the new way 
-  of marketing. We also say this in that way this is modern-day marketing.</p> <h2>Area to learn</h2> <p>What do you learn in a digital marketing course?<br /> 
-  In digital marketing, you learn about different modules. You learn that hoe to rank a webpage on search engine by doing <strong>SEO</strong>(Search Engine Optimization).
-   How to create your own website, how to rank on the top of the search engine. Optimization of social media to grow your business. 
-   Method of online earning etc.</p> <p>Digital marketing institute in Ballabgarh Along with these certificates, you became a digital marketer. 
-   The <strong>digital marketing is the 3-month course</strong> in this period we provide you training of digital marketing with various modules. 
-   The modules are designed and developed keeping in mind the latest trend.</p> <p>Which are ongoing in the digital industry. You can also find high ranking jobs.
-    Such as Digital marketing institute in Ballabgarh Strategist, Digital Marketing Developer, Digital Marketing Traffic Specialist, and PPC Manager. 
-    After learning this course you will be able to find jobs in these fields.</p> <h4><strong>
-</strong></h4> <h4><strong>Digital marketing institute in Ballabgarh</strong> Our</h4> <h4>a page has to take care of audience generation on the website. 
-Analyzing website through different tools.</h4> <h2><strong>Digital marketing course</strong></h2> <p>Benefits- Beat the ranking of the competitor by making a better
- option or through analyzing their website. Create backlinks on a different website. Take care of DA (Domain Authority) and PA( Page Authority) of the website.</p> 
- <p>internet marketing simply means utilization of digital thing such as the internet, mobile, laptop, desktop, etc to promote your business online. Digital marketing 
- is the best way to promote your business. Digital marketing helps you to make your online name. you can promote your business worldwide.</p> <p>Then what are you waiting 
- for come join our journey of digital marketing? Make your online name grow your business online worldwide. Let the world know you and your business name.</p> 
- <p><strong>Digimanthan: Digital marketing course is being offered in Ballabgarh</strong> provides you with the best experience in digital marketing training. 
- As we mention above we provide you with 100% job assistance. We are now the leading digital marketing institute in Ballabgarh.</p> <p>Our institute is providing 
- <strong>Digital Marketing Course in Ballabgarh</strong> that is a complete job oriented course with high-tech working labs and experienced faculty members. 
- Our course stands out in hundreds of courses that different institutes are offering in Ballabgarh because of the structure of our course. Our course is a complete course 
- that includes everything about digital marketing with hands-on projects and job placement assistance.</p> <p>We have both short-term and long-term courses for digital 
- marketing professionals and aspirant who are at a different level in their career. Our short-term courses are designed for advanced-level professionals who want to reach
-  the next level of their career. The long-term courses are for the beginners that include everything starting from the basics of digital marketing to the implementation 
-  of the tools on real projects. Our courses include all the topics like mobile marketing, video promotion, search engine marketing, PPC, content marketing, affiliate 
-  marketing, and social media promotion of a website.</p> <p>The faculty members of our <strong>Digital Marketing Course in Ballabgarh</strong> have industry experience that 
-  makes them train the students well. Their exposure to real projects helps them assist the students in making successful campaigns. The focus of our institute is on 
-  giving all-round exposure to the student that helped them developing analytical to measure the ROI of their project. We follow two parallel approaches of knowledge and 
-  its accurate implementation for our students.</p> <p>Digital marketing institute in Ballabgarh Come join us an became a part of the digital world. 
-  For more details contact us:-</p> <p> 
-        
-        
-  </div>
-</section>
-
+ <iframe class="menu" src="/AdvanceDigitalMarketing/views/jsp/Student.html" style="width:100%"></iframe>
   
-
-
+</div>
+</section>
 
   
 

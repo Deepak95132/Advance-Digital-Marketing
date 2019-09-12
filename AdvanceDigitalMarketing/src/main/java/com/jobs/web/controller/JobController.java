@@ -5,7 +5,12 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.view.RedirectView;
+
+import com.jobs.web.beans.AdminBeans;
 
 @Controller
 public class JobController {
@@ -20,13 +25,47 @@ public class JobController {
 
 	}
 
-	@RequestMapping(value = "/hello/{name:.+}", method = RequestMethod.GET)
-	public ModelAndView hello(@PathVariable("name") String name) {
-
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public String hello(@RequestParam("name")String name,@RequestParam("password") String password,RedirectAttributes reAttributes) {
+System.out.println("in post");
 		ModelAndView model = new ModelAndView();
-		model.setViewName("hello");
-		model.addObject("msg", name);
+		reAttributes.addFlashAttribute("loggedin",true);
+		AdminBeans admin=new AdminBeans();
+		admin.setName(name);
+		admin.setPassword(password);
+		String view=null;
+	if(admin.getName().equals("deepak")&&admin.getPassword().equals("deepak")) {
+		view="ViewStudent";
+		
+	}
+	else
+	{
+		
+		//model.setViewName("index.jsp");
+		model.addObject("login","failed");
+		view="redirect:failed";
+		model.addObject("message", "Authentucation Failed");
+		
+	}
 
+		return view;
+
+	}
+	@RequestMapping(value = "/index", method = RequestMethod.GET)
+	public ModelAndView printFailed(ModelAndView model) {
+
+		model.addObject("message", "Authentucation Failed");
+		//model.addObject("url", "http://www.google.com");
+		model.setViewName("index");
+		return model;
+
+	}
+	@RequestMapping(value = "/ViewStudent", method = RequestMethod.GET)
+	public ModelAndView printSuccess(ModelAndView model) {
+
+		model.addObject("message", "Success");
+		//model.addObject("url", "http://www.google.com");
+		model.setViewName("ViewStudent");
 		return model;
 
 	}
