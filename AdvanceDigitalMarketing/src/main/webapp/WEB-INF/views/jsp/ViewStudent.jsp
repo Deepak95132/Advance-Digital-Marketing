@@ -563,7 +563,7 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
   <a href="#" class="previous" id="movebutton">&laquo; Previous</a>
 <a href="#" class="next" id ="movebutton1">Next &raquo;</a>
 
- <iframe class="menu" src="/AdvanceDigitalMarketing/views/jsp/Student.html" style="width:100%"></iframe>
+ <iframe class="menu" src="/AdvanceDigitalMarketing/Student" style="width:100%;height:600px;" ></iframe>
   
 </div>
 </section>

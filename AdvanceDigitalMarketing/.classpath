@@ -33,5 +33,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/deepak/ojdbc7-12.1.0.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

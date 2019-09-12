@@ -2,6 +2,7 @@ package com.jobs.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -10,7 +11,9 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
 
+import com.jobs.web.DAO.StudentDAO;
 import com.jobs.web.beans.AdminBeans;
+import com.jobs.web.beans.StudentBean;
 
 @Controller
 public class JobController {
@@ -69,5 +72,32 @@ System.out.println("in post");
 		return model;
 
 	}
+	
+	@RequestMapping(value = "/Student", method = RequestMethod.GET)
+	public ModelAndView viewStudent(ModelAndView model) {
+
+		//model.addObject("message", "Success");
+		//model.addObject("url", "http://www.google.com");
+		model.setViewName("Student");
+		return model;
+
+	}
+	
+	@RequestMapping(value = "/addStudent", method = RequestMethod.POST)
+	public String addStudent(@ModelAttribute("student") StudentBean bean) {
+
+		//model.addObject("message", "Success");
+		//model.addObject("url", "http://www.google.com");
+		StudentDAO dao=new StudentDAO();
+		System.out.println(bean.getStudentName());
+		dao.addStudent(bean);
+		return "hello";
+
+	}
+	@RequestMapping(value = "/addStudentPage", method = RequestMethod.GET)
+	public String addStudent() {
+		return "AddStudent";
+	}
+	
 
 }

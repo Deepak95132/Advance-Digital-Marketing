@@ -1,7 +1,11 @@
 package com.jobs.web.beans;
 
-public class AdminBeans {
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
+@Entity
+public class AdminBeans {
+@Id
 	private String name;
 	private String password;
 	public String getName() {
