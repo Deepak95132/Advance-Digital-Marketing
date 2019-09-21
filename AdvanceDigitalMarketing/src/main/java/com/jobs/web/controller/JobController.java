@@ -97,7 +97,7 @@ System.out.println("in post");
 		StudentDAO dao=new StudentDAO();
 		
 		dao.addStudent(bean);
-		return "hello";
+		return "ViewStudent";
 
 	}
 	@RequestMapping(value = "/addStudentPage", method = RequestMethod.GET)

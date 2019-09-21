@@ -448,10 +448,44 @@ cellspacing="2">
 </tr>
 
 <tr>
-<td>&nbsp;&nbsp;&nbsp;Name</td>
+<td>&nbsp;&nbsp;&nbsp;Student Name</td>
 <td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=studentName id="studentName" size="30"></td>
 </tr>
 
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;Father Name</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=fatherName id="fatherName" size="30"></td>
+</tr>
+
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;Mother Name</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=motherName id="motherName" size="30"></td>
+</tr>
+
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;Course</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=course id="course" size="30"></td>
+</tr>
+
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;Sex</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=sex id="sex" size="30"></td>
+</tr>
+
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;Phone Number</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=phoneNummber id="phoneNumber" size="30"></td>
+</tr>
+
+<tr>
+<td>&nbsp;&nbsp;&nbsp;Address</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=address id="address" size="30"></td>
+</tr>
 
 <tr>
 <td></td>
