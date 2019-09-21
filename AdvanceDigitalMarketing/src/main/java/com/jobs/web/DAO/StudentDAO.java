@@ -46,7 +46,7 @@ session.getTransaction().commit();
 		session.getTransaction().commit();
 		session.close();
 	}*/
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		StudentBean bean=new StudentBean();
 		bean.setStudentName("deepak");
 		bean.setPhoneNumber(1234567890l);
@@ -54,5 +54,5 @@ session.getTransaction().commit();
 		StudentDAO dao=new StudentDAO();
 		dao.addStudent(bean);
 		
-	}
+	}*/
 }

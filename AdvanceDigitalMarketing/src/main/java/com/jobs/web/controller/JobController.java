@@ -1,12 +1,15 @@
 package com.jobs.web.controller;
 
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
@@ -83,13 +86,16 @@ System.out.println("in post");
 
 	}
 	
-	@RequestMapping(value = "/addStudent", method = RequestMethod.POST)
-	public String addStudent(@ModelAttribute("student") StudentBean bean) {
+	@RequestMapping(value = "/addStudent", method = {RequestMethod.GET,RequestMethod.POST})
+	@ResponseStatus(value=HttpStatus.OK)
+
+	public String addStudent(@ModelAttribute("StudentBean") StudentBean bean) {
 
 		//model.addObject("message", "Success");
 		//model.addObject("url", "http://www.google.com");
-		StudentDAO dao=new StudentDAO();
 		System.out.println(bean.getStudentName());
+		StudentDAO dao=new StudentDAO();
+		
 		dao.addStudent(bean);
 		return "hello";
 

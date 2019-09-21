@@ -1,4 +1,5 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -435,7 +436,7 @@ var simple_favorites = {"ajaxurl":"https:\/\/www.onlinemarketinginstitute.org\/w
 <script type="text/javascript" src="/AdvanceDigitalMarketing/resource/js/validate.js"></script>
 
 
-<form name="StudentRegistration" onsubmit="return(validate());" action="/AdvanceDigitalMarketing/resources/addStudent">
+<form name="StudentBean" method="post" return(validate());" action="/AdvanceDigitalMarketing/addStudent">
 
 <table cellpadding="2" width="50%" bgcolor="99FFFF" align="center"
 cellspacing="2">
@@ -448,91 +449,10 @@ cellspacing="2">
 
 <tr>
 <td>&nbsp;&nbsp;&nbsp;Name</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=textnames id="textname" size="30"></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;&nbsp;Father Name</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fathername" id="fathername"
-size="30"></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type=text name=studentName id="studentName" size="30"></td>
 </tr>
 
 
-<tr>
-<td>&nbsp;&nbsp;&nbsp;Address</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="personaladdress"
-id="personaladdress" size="30"></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;&nbsp;Sex</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex" value="male" size="10">Male
-<input type="radio" name="sex" value="Female" size="10">Female</td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;&nbsp;City</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<select name="City">
-<option value="-1" selected>select..</option>
-<option value="New Delhi">NEW DELHI</option>
-<option value="Mumbai">MUMBAI</option>
-<option value="Goa">GOA</option>
-<option value="Patna">PATNA</option>
-</select></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;&nbsp;Course</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<select name="Course">
-<option value="-1" selected>select..</option>
-<option value="B.Tech">B.TECH</option>
-<option value="MCA">MCA</option>
-<option value="MBA">MBA</option>
-<option value="BCA">BCA</option>
-</select></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;&nbsp;District</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<select name="District">
-<option value="-1" selected>select..</option>
-<option value="Nalanda">NALANDA</option>
-<option value="UP">UP</option>
-<option value="Goa">GOA</option>
-<option value="Patna">PATNA</option>
-</select></td>
-
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;&nbsp;State</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<select Name="State">
-<option value="-1" selected>select..</option>
-<option value="New Delhi">NEW DELHI</option>
-<option value="Mumbai">MUMBAI</option>
-<option value="Goa">GOA</option>
-<option value="Bihar">BIHAR</option>
-</select></td>
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;PinCode</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="pincode" id="pincode" size="30"></td>
-
-</tr>
-<tr>
-<td>&nbsp;&nbsp;&nbsp;EmailId</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="emailid" id="emailid" size="30"></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;&nbsp;DOB</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="dob" id="dob" size="30"></td>
-</tr>
-
-<tr>
-<td>&nbsp;&nbsp;&nbsp;MobileNo</td>
-<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="mobileno" id="mobileno" size="30"></td>
-</tr>
 <tr>
 <td></td>
 <td colspan="2"><input type="submit" value="Submit Form" />
